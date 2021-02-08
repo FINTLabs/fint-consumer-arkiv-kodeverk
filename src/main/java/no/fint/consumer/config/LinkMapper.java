@@ -3,8 +3,20 @@ package no.fint.consumer.config;
 import no.fint.consumer.utils.RestEndpoints;
 import java.util.Map;
 import com.google.common.collect.ImmutableMap;
-
-import no.fint.model.arkiv.kodeverk.*;
+import no.fint.model.arkiv.kodeverk.DokumentStatus;
+import no.fint.model.arkiv.kodeverk.DokumentType;
+import no.fint.model.arkiv.kodeverk.JournalpostType;
+import no.fint.model.arkiv.kodeverk.JournalStatus;
+import no.fint.model.arkiv.kodeverk.Klassifikasjonstype;
+import no.fint.model.arkiv.kodeverk.KorrespondansepartType;
+import no.fint.model.arkiv.kodeverk.Merknadstype;
+import no.fint.model.arkiv.kodeverk.PartRolle;
+import no.fint.model.arkiv.kodeverk.Rolle;
+import no.fint.model.arkiv.kodeverk.Saksstatus;
+import no.fint.model.arkiv.kodeverk.Skjermingshjemmel;
+import no.fint.model.arkiv.kodeverk.Tilgangsrestriksjon;
+import no.fint.model.arkiv.kodeverk.TilknyttetRegistreringSom;
+import no.fint.model.arkiv.kodeverk.Variantformat;
 
 public class LinkMapper {
 
