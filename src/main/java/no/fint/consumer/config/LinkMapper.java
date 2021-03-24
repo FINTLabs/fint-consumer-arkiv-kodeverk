@@ -5,6 +5,7 @@ import java.util.Map;
 import com.google.common.collect.ImmutableMap;
 import no.fint.model.arkiv.kodeverk.DokumentStatus;
 import no.fint.model.arkiv.kodeverk.DokumentType;
+import no.fint.model.arkiv.kodeverk.Format;
 import no.fint.model.arkiv.kodeverk.JournalpostType;
 import no.fint.model.arkiv.kodeverk.JournalStatus;
 import no.fint.model.arkiv.kodeverk.Klassifikasjonstype;
@@ -24,6 +25,7 @@ public class LinkMapper {
         return ImmutableMap.<String,String>builder()
             .put(DokumentStatus.class.getName(), contextPath + RestEndpoints.DOKUMENTSTATUS)
             .put(DokumentType.class.getName(), contextPath + RestEndpoints.DOKUMENTTYPE)
+            .put(Format.class.getName(), contextPath + RestEndpoints.FORMAT)
             .put(JournalpostType.class.getName(), contextPath + RestEndpoints.JOURNALPOSTTYPE)
             .put(JournalStatus.class.getName(), contextPath + RestEndpoints.JOURNALSTATUS)
             .put(Klassifikasjonstype.class.getName(), contextPath + RestEndpoints.KLASSIFIKASJONSTYPE)
