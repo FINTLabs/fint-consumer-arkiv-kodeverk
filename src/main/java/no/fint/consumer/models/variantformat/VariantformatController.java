@@ -182,7 +182,7 @@ public class VariantformatController {
 
             fintAuditService.audit(response, Status.SENT_TO_CLIENT);
 
-            return linker.toResource(variantformat);
+            return linker.mapAndResetLinks(variantformat);
         }    
     }
 

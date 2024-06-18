@@ -182,7 +182,7 @@ public class TilgangsrestriksjonController {
 
             fintAuditService.audit(response, Status.SENT_TO_CLIENT);
 
-            return linker.toResource(tilgangsrestriksjon);
+            return linker.mapAndResetLinks(tilgangsrestriksjon);
         }    
     }
 
