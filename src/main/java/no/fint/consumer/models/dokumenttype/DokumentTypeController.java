@@ -182,7 +182,7 @@ public class DokumentTypeController {
 
             fintAuditService.audit(response, Status.SENT_TO_CLIENT);
 
-            return linker.toResource(dokumenttype);
+            return linker.mapAndResetLinks(dokumenttype);
         }    
     }
 
