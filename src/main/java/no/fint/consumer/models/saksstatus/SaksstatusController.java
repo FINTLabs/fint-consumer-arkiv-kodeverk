@@ -182,7 +182,7 @@ public class SaksstatusController {
 
             fintAuditService.audit(response, Status.SENT_TO_CLIENT);
 
-            return linker.toResource(saksstatus);
+            return linker.mapAndResetLinks(saksstatus);
         }    
     }
 

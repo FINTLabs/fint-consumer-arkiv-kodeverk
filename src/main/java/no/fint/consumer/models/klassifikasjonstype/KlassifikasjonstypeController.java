@@ -182,7 +182,7 @@ public class KlassifikasjonstypeController {
 
             fintAuditService.audit(response, Status.SENT_TO_CLIENT);
 
-            return linker.toResource(klassifikasjonstype);
+            return linker.mapAndResetLinks(klassifikasjonstype);
         }    
     }
 

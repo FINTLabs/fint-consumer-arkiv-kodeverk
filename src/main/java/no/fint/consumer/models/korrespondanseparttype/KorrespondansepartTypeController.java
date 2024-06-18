@@ -182,7 +182,7 @@ public class KorrespondansepartTypeController {
 
             fintAuditService.audit(response, Status.SENT_TO_CLIENT);
 
-            return linker.toResource(korrespondanseparttype);
+            return linker.mapAndResetLinks(korrespondanseparttype);
         }    
     }
 
