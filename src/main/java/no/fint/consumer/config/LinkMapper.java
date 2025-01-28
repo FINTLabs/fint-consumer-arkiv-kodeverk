@@ -16,6 +16,7 @@ import no.fint.model.arkiv.kodeverk.Rolle;
 import no.fint.model.arkiv.kodeverk.Saksmappetype;
 import no.fint.model.arkiv.kodeverk.Saksstatus;
 import no.fint.model.arkiv.kodeverk.Skjermingshjemmel;
+import no.fint.model.arkiv.kodeverk.Tilgangsgruppe;
 import no.fint.model.arkiv.kodeverk.Tilgangsrestriksjon;
 import no.fint.model.arkiv.kodeverk.TilknyttetRegistreringSom;
 import no.fint.model.arkiv.kodeverk.Variantformat;
@@ -37,6 +38,7 @@ public class LinkMapper {
             .put(Saksmappetype.class.getName(), contextPath + RestEndpoints.SAKSMAPPETYPE)
             .put(Saksstatus.class.getName(), contextPath + RestEndpoints.SAKSSTATUS)
             .put(Skjermingshjemmel.class.getName(), contextPath + RestEndpoints.SKJERMINGSHJEMMEL)
+            .put(Tilgangsgruppe.class.getName(), contextPath + RestEndpoints.TILGANGSGRUPPE)
             .put(Tilgangsrestriksjon.class.getName(), contextPath + RestEndpoints.TILGANGSRESTRIKSJON)
             .put(TilknyttetRegistreringSom.class.getName(), contextPath + RestEndpoints.TILKNYTTETREGISTRERINGSOM)
             .put(Variantformat.class.getName(), contextPath + RestEndpoints.VARIANTFORMAT)
