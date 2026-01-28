@@ -1,7 +1,7 @@
 package no.fint.consumer.models.merknadstype;
 
-import no.fint.model.resource.arkiv.kodeverk.MerknadstypeResource;
-import no.fint.model.resource.arkiv.kodeverk.MerknadstypeResources;
+import no.novari.fint.model.resource.arkiv.kodeverk.MerknadstypeResource;
+import no.novari.fint.model.resource.arkiv.kodeverk.MerknadstypeResources;
 import no.fint.relations.FintLinker;
 import org.springframework.stereotype.Component;
 

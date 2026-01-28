@@ -43,9 +43,9 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Stream;
 
-import no.fint.model.resource.arkiv.kodeverk.DokumentTypeResource;
-import no.fint.model.resource.arkiv.kodeverk.DokumentTypeResources;
-import no.fint.model.arkiv.kodeverk.KodeverkActions;
+import no.novari.fint.model.resource.arkiv.kodeverk.DokumentTypeResource;
+import no.novari.fint.model.resource.arkiv.kodeverk.DokumentTypeResources;
+import no.novari.fint.model.arkiv.kodeverk.KodeverkActions;
 
 @Slf4j
 @Api(tags = {"DokumentType"})

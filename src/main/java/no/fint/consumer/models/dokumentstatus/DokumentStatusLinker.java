@@ -1,7 +1,7 @@
 package no.fint.consumer.models.dokumentstatus;
 
-import no.fint.model.resource.arkiv.kodeverk.DokumentStatusResource;
-import no.fint.model.resource.arkiv.kodeverk.DokumentStatusResources;
+import no.novari.fint.model.resource.arkiv.kodeverk.DokumentStatusResource;
+import no.novari.fint.model.resource.arkiv.kodeverk.DokumentStatusResources;
 import no.fint.relations.FintLinker;
 import org.springframework.stereotype.Component;
 

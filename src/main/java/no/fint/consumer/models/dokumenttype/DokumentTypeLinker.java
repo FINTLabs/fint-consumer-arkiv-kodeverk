@@ -1,7 +1,7 @@
 package no.fint.consumer.models.dokumenttype;
 
-import no.fint.model.resource.arkiv.kodeverk.DokumentTypeResource;
-import no.fint.model.resource.arkiv.kodeverk.DokumentTypeResources;
+import no.novari.fint.model.resource.arkiv.kodeverk.DokumentTypeResource;
+import no.novari.fint.model.resource.arkiv.kodeverk.DokumentTypeResources;
 import no.fint.relations.FintLinker;
 import org.springframework.stereotype.Component;
 

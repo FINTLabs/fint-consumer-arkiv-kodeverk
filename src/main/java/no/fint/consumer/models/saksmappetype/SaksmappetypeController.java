@@ -43,9 +43,9 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Stream;
 
-import no.fint.model.resource.arkiv.kodeverk.SaksmappetypeResource;
-import no.fint.model.resource.arkiv.kodeverk.SaksmappetypeResources;
-import no.fint.model.arkiv.kodeverk.KodeverkActions;
+import no.novari.fint.model.resource.arkiv.kodeverk.SaksmappetypeResource;
+import no.novari.fint.model.resource.arkiv.kodeverk.SaksmappetypeResources;
+import no.novari.fint.model.arkiv.kodeverk.KodeverkActions;
 
 @Slf4j
 @Api(tags = {"Saksmappetype"})

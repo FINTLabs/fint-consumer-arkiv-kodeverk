@@ -1,7 +1,7 @@
 package no.fint.consumer.models.rolle;
 
-import no.fint.model.resource.arkiv.kodeverk.RolleResource;
-import no.fint.model.resource.arkiv.kodeverk.RolleResources;
+import no.novari.fint.model.resource.arkiv.kodeverk.RolleResource;
+import no.novari.fint.model.resource.arkiv.kodeverk.RolleResources;
 import no.fint.relations.FintLinker;
 import org.springframework.stereotype.Component;
 

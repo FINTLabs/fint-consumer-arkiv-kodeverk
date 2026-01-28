@@ -1,7 +1,7 @@
 package no.fint.consumer.models.klassifikasjonstype;
 
-import no.fint.model.resource.arkiv.kodeverk.KlassifikasjonstypeResource;
-import no.fint.model.resource.arkiv.kodeverk.KlassifikasjonstypeResources;
+import no.novari.fint.model.resource.arkiv.kodeverk.KlassifikasjonstypeResource;
+import no.novari.fint.model.resource.arkiv.kodeverk.KlassifikasjonstypeResources;
 import no.fint.relations.FintLinker;
 import org.springframework.stereotype.Component;
 

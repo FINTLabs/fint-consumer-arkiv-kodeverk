@@ -43,9 +43,9 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Stream;
 
-import no.fint.model.resource.arkiv.kodeverk.TilknyttetRegistreringSomResource;
-import no.fint.model.resource.arkiv.kodeverk.TilknyttetRegistreringSomResources;
-import no.fint.model.arkiv.kodeverk.KodeverkActions;
+import no.novari.fint.model.resource.arkiv.kodeverk.TilknyttetRegistreringSomResource;
+import no.novari.fint.model.resource.arkiv.kodeverk.TilknyttetRegistreringSomResources;
+import no.novari.fint.model.arkiv.kodeverk.KodeverkActions;
 
 @Slf4j
 @Api(tags = {"TilknyttetRegistreringSom"})

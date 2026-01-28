@@ -1,7 +1,7 @@
 package no.fint.consumer.models.saksstatus;
 
-import no.fint.model.resource.arkiv.kodeverk.SaksstatusResource;
-import no.fint.model.resource.arkiv.kodeverk.SaksstatusResources;
+import no.novari.fint.model.resource.arkiv.kodeverk.SaksstatusResource;
+import no.novari.fint.model.resource.arkiv.kodeverk.SaksstatusResources;
 import no.fint.relations.FintLinker;
 import org.springframework.stereotype.Component;
 

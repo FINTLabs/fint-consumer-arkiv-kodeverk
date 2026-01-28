@@ -43,9 +43,9 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Stream;
 
-import no.fint.model.resource.arkiv.kodeverk.FormatResource;
-import no.fint.model.resource.arkiv.kodeverk.FormatResources;
-import no.fint.model.arkiv.kodeverk.KodeverkActions;
+import no.novari.fint.model.resource.arkiv.kodeverk.FormatResource;
+import no.novari.fint.model.resource.arkiv.kodeverk.FormatResources;
+import no.novari.fint.model.arkiv.kodeverk.KodeverkActions;
 
 @Slf4j
 @Api(tags = {"Format"})

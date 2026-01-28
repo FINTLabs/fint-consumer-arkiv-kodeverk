@@ -1,7 +1,7 @@
 package no.fint.consumer.models.tilknyttetregistreringsom;
 
-import no.fint.model.resource.arkiv.kodeverk.TilknyttetRegistreringSomResource;
-import no.fint.model.resource.arkiv.kodeverk.TilknyttetRegistreringSomResources;
+import no.novari.fint.model.resource.arkiv.kodeverk.TilknyttetRegistreringSomResource;
+import no.novari.fint.model.resource.arkiv.kodeverk.TilknyttetRegistreringSomResources;
 import no.fint.relations.FintLinker;
 import org.springframework.stereotype.Component;
 

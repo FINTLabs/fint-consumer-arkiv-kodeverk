@@ -1,7 +1,7 @@
 package no.fint.consumer.models.tilgangsrestriksjon;
 
-import no.fint.model.resource.arkiv.kodeverk.TilgangsrestriksjonResource;
-import no.fint.model.resource.arkiv.kodeverk.TilgangsrestriksjonResources;
+import no.novari.fint.model.resource.arkiv.kodeverk.TilgangsrestriksjonResource;
+import no.novari.fint.model.resource.arkiv.kodeverk.TilgangsrestriksjonResources;
 import no.fint.relations.FintLinker;
 import org.springframework.stereotype.Component;
 

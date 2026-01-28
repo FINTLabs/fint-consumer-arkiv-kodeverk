@@ -26,10 +26,10 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import no.fint.model.arkiv.kodeverk.DokumentType;
-import no.fint.model.resource.arkiv.kodeverk.DokumentTypeResource;
-import no.fint.model.arkiv.kodeverk.KodeverkActions;
-import no.fint.model.felles.kompleksedatatyper.Identifikator;
+import no.novari.fint.model.arkiv.kodeverk.DokumentType;
+import no.novari.fint.model.resource.arkiv.kodeverk.DokumentTypeResource;
+import no.novari.fint.model.arkiv.kodeverk.KodeverkActions;
+import no.novari.fint.model.felles.kompleksedatatyper.Identifikator;
 
 @Slf4j
 @Service

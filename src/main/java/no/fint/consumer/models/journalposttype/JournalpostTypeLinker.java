@@ -1,7 +1,7 @@
 package no.fint.consumer.models.journalposttype;
 
-import no.fint.model.resource.arkiv.kodeverk.JournalpostTypeResource;
-import no.fint.model.resource.arkiv.kodeverk.JournalpostTypeResources;
+import no.novari.fint.model.resource.arkiv.kodeverk.JournalpostTypeResource;
+import no.novari.fint.model.resource.arkiv.kodeverk.JournalpostTypeResources;
 import no.fint.relations.FintLinker;
 import org.springframework.stereotype.Component;
 

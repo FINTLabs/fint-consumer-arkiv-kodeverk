@@ -43,9 +43,9 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Stream;
 
-import no.fint.model.resource.arkiv.kodeverk.JournalStatusResource;
-import no.fint.model.resource.arkiv.kodeverk.JournalStatusResources;
-import no.fint.model.arkiv.kodeverk.KodeverkActions;
+import no.novari.fint.model.resource.arkiv.kodeverk.JournalStatusResource;
+import no.novari.fint.model.resource.arkiv.kodeverk.JournalStatusResources;
+import no.novari.fint.model.arkiv.kodeverk.KodeverkActions;
 
 @Slf4j
 @Api(tags = {"JournalStatus"})

@@ -1,7 +1,7 @@
 package no.fint.consumer.models.korrespondanseparttype;
 
-import no.fint.model.resource.arkiv.kodeverk.KorrespondansepartTypeResource;
-import no.fint.model.resource.arkiv.kodeverk.KorrespondansepartTypeResources;
+import no.novari.fint.model.resource.arkiv.kodeverk.KorrespondansepartTypeResource;
+import no.novari.fint.model.resource.arkiv.kodeverk.KorrespondansepartTypeResources;
 import no.fint.relations.FintLinker;
 import org.springframework.stereotype.Component;
 

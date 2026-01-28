@@ -1,7 +1,7 @@
 package no.fint.consumer.models.journalstatus;
 
-import no.fint.model.resource.arkiv.kodeverk.JournalStatusResource;
-import no.fint.model.resource.arkiv.kodeverk.JournalStatusResources;
+import no.novari.fint.model.resource.arkiv.kodeverk.JournalStatusResource;
+import no.novari.fint.model.resource.arkiv.kodeverk.JournalStatusResources;
 import no.fint.relations.FintLinker;
 import org.springframework.stereotype.Component;
 

@@ -1,7 +1,7 @@
 package no.fint.consumer.models.variantformat;
 
-import no.fint.model.resource.arkiv.kodeverk.VariantformatResource;
-import no.fint.model.resource.arkiv.kodeverk.VariantformatResources;
+import no.novari.fint.model.resource.arkiv.kodeverk.VariantformatResource;
+import no.novari.fint.model.resource.arkiv.kodeverk.VariantformatResources;
 import no.fint.relations.FintLinker;
 import org.springframework.stereotype.Component;
 

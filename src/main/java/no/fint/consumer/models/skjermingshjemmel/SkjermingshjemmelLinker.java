@@ -1,7 +1,7 @@
 package no.fint.consumer.models.skjermingshjemmel;
 
-import no.fint.model.resource.arkiv.kodeverk.SkjermingshjemmelResource;
-import no.fint.model.resource.arkiv.kodeverk.SkjermingshjemmelResources;
+import no.novari.fint.model.resource.arkiv.kodeverk.SkjermingshjemmelResource;
+import no.novari.fint.model.resource.arkiv.kodeverk.SkjermingshjemmelResources;
 import no.fint.relations.FintLinker;
 import org.springframework.stereotype.Component;
 

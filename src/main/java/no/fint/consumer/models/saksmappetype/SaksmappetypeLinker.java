@@ -1,7 +1,7 @@
 package no.fint.consumer.models.saksmappetype;
 
-import no.fint.model.resource.arkiv.kodeverk.SaksmappetypeResource;
-import no.fint.model.resource.arkiv.kodeverk.SaksmappetypeResources;
+import no.novari.fint.model.resource.arkiv.kodeverk.SaksmappetypeResource;
+import no.novari.fint.model.resource.arkiv.kodeverk.SaksmappetypeResources;
 import no.fint.relations.FintLinker;
 import org.springframework.stereotype.Component;
 

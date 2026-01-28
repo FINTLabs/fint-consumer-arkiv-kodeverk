@@ -26,10 +26,10 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-import no.fint.model.arkiv.kodeverk.PartRolle;
-import no.fint.model.resource.arkiv.kodeverk.PartRolleResource;
-import no.fint.model.arkiv.kodeverk.KodeverkActions;
-import no.fint.model.felles.kompleksedatatyper.Identifikator;
+import no.novari.fint.model.arkiv.kodeverk.PartRolle;
+import no.novari.fint.model.resource.arkiv.kodeverk.PartRolleResource;
+import no.novari.fint.model.arkiv.kodeverk.KodeverkActions;
+import no.novari.fint.model.felles.kompleksedatatyper.Identifikator;
 
 @Slf4j
 @Service
